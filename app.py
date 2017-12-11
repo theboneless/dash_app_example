@@ -22,12 +22,12 @@ import pandas as pd
 import plotly.graph_objs as go
 
 
-# In[2]:
+# In[4]:
 
 
 #First we import the files and create the coresponding indicators for the values and the countries
 
-euro_data = pd.read_csv("Eurostat_file.csv")
+euro_data = pd.read_csv("nama_10_gdp_1_Data.csv")
 
 available_indicators = euro_data['NA_ITEM'].unique()
 
@@ -36,7 +36,7 @@ available_countries = euro_data['GEO'].unique()
 
 # ### My Dashboard
 
-# In[4]:
+# In[ ]:
 
 
 #We start with creating the app itself
